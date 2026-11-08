@@ -8,24 +8,23 @@ The coursework focuses on developing programming logic and practical skills for 
 ## Repository Structure & Topics
 
 **1 – Basic Programming Fundamentals:**
-■ Introduction to MATLAB syntax and workspace navigation.
-■ Variables, arrays, and basic mathematical operations.
-■ Control flow structures (if statements, for and while loops).
-■ Writing custom functions and modular code.
+* Introduction to MATLAB syntax and workspace navigation.
+* Variables, arrays, and basic mathematical operations.
+* Control flow structures (if statements, for and while loops).
+* Writing custom functions and modular code.
 
 **2 – Data Processing, Graphics & Visualization:**
-■ Scripting for data manipulation and analysis.
-■ Reading, writing, and formatting external data files.
-■ Image processing basics and stimulus preparation.
-■ Data visualization and figure generation.
+* Scripting for data manipulation and analysis.
+* Reading, writing, and formatting external data files.
+* Image processing basics and stimulus preparation.
+* Data visualization and figure generation.
 
 **3 – Experimental Paradigms & Advanced Projects:**
-■ Designing cognitive experiments using Psychtoolbox.
-■ Handling graphic coordinates and audio/visual stimulus timing.
-■ Collecting and measuring precise user inputs (keyboard, mouse).
-■ Structuring complete experimental scripts and debugging.
-
+* Designing cognitive experiments using Psychtoolbox.
+* Handling graphic coordinates and audio/visual stimulus timing.
+* Collecting and measuring precise user inputs (keyboard, mouse).
+* Structuring complete experimental scripts and debugging.
+* 
 ## Tools & Technologies
 ■ MATLAB
 ■ Psychtoolbox
-■ Git & GitHub
