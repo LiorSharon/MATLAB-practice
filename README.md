@@ -24,7 +24,7 @@ The coursework focuses on developing programming logic and practical skills for 
 * Handling graphic coordinates and audio/visual stimulus timing.
 * Collecting and measuring precise user inputs (keyboard, mouse).
 * Structuring complete experimental scripts and debugging.
-* 
+  
 ## Tools & Technologies
 ■ MATLAB
 ■ Psychtoolbox
