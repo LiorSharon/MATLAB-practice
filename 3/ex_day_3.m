@@ -1,0 +1,53 @@
+%% %% Class 3 %%%%
+
+% -----ex 1 -----
+% In matlab, we concatenate or join individual elements with [ ]  brackets.
+% If I want to join 12 6 8 9 11 and 13 into a single variable, I would type: 
+% 	foo = [12 6 8 9 11 13] 
+% Can you make a variable which has the names of the days of the week (you may need to check the slides for the correct syntax).
+% 
+foo = ["sunday","moday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+%% -----ex 2 -----?
+% a) You can also create incrementing variable. What variable values are created with foo=[1:12]  ?
+foo=[1:12]
+% b) What happens if you write foo=[1:2:24]  ? Can you work out how the syntax is working? Try some other combinations. 
+foo=[1:2:24]
+% c) What syntax would create a variable with the following values? 1 5 9 13 17 21 25 29 33 37 41 45
+foo=[1:4:46]
+% d) Now this is really tricky. Could you use the a:b:c notation to create a variable that counts backwards from 10 in steps of two?
+foo=[]
+
+
+
+%% -----ex 3 ----- ?
+% Use this days of the week array.
+daysOfWeek=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Friday"];
+% a) Write a loop that displays in the command window the days of the week from Monday to Sunday
+daysOfWeek=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Friday"];
+daysOfWeek=[1,2,3,4,5,6,7] 
+for ii=1:7
+    day=daysOfWeek(ii)
+    disp(ii)
+end
+    
+% b) The same logic from exercise 2 applies to the for loop syntax. Can you adapt the loop to show only every second day?
+
+% c) Can you adapt the loop to list the days backwards from Sunday.
+
+
+%%  -----ex 4 ----- 
+% Given:
+% Gender="female"
+% Height="178"
+% 
+% Write a script that displays 'tall' if height is greater than 175
+
+% Modify this script to show 'tall' if height is greater than 175 and the person is a female
+
+% if statement's 
+% Use else to handle all these eventualities. 
+% If a male is less than 175 display 'short'. 
+% If a male is greater than 175 display 'average'. 
+% If a female is less than 175 display 'average'. 
+% If a female is less than 175 display 'tall'. 
